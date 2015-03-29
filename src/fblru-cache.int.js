@@ -2,7 +2,7 @@
  * Created by justin on 2015-03-09.
  */
 
-require('win-common')({useTestGlobals:true});
+
 var PersistentCache = require('./fblru-cache');
 
 describe('FBLRU-Cache Integration', function() {
