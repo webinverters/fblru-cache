@@ -9,4 +9,4 @@
  * @license Apache-2.0
  */
 
-require('./src/fblru-cache');
+module.exports = require('./src/fblru-cache');
