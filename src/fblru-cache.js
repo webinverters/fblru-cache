@@ -64,10 +64,11 @@ module.exports = function(config) {
             var val = JSON.parse(json);
             cache.set(key, val);
             return val;
-          });
+          })
+        .then(null, function(err) {
+          return '';
+        });
     });
-
-
   };
 
   m.set = function(key, val) {
