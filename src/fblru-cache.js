@@ -1,4 +1,3 @@
-require('win-common');
 var zlib = p.promisifyAll(require('zlib'));
 
 /**
